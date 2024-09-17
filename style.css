@@ -104,23 +104,22 @@ html, body {
 .bottom ul li span:hover{
     background-color: #edeef0;
 }
-/* Add small image/icon before li text */
+
 .bottom ul li::before {
     content: '';
-    /* display: inline-block; */
     position: absolute;
     width: 20px;
     height: 20px;
     margin-right: 10px;
     border-radius: 50%;
-    background-image: url(img/unchecked.png);
+    background-image: url(unchecked.png);
     background-size: cover;
     background-position: center;
     top: 12px;
     left: 8px;
 }
 
-/* Adjust the li based on text */
+
 .bottom ul li:last-child {
     border-bottom: none;
 }
@@ -131,5 +130,5 @@ text-decoration: line-through;
 
 }
 ul li.checked::before{
-    background-image: url(img/checked.png);
+    background-image: url(checked.png);
 }
